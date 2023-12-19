@@ -214,5 +214,93 @@ footer div.logo h1 {
     opacity: 100%;
   }
 }
+/* Mobile */
+@media screen and (max-width: 767px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    margin-bottom: 10px;
+  }
+  header nav {
+    align-items: center;
+    margin: 0;
+  }
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+  main .Inicio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  main .Inicio img {
+    width: 80%;
+  }
+  main .Inicio div h2 {
+    font-size: 2rem;
+  }
+  main .Inicio div p {
+    font-size: 1rem;
+  }
+  .cards {
+    display: flex;
+    flex-direction: column;
+  }
+  .cards .card {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    gap: 20px;
+  }
+  .cards .card img {
+    width: 70%;
+  }
+  .cards .card h3 {
+    font-size: 1.5rem;
+  }
+  .cards .card p {
+    font-size: 1rem;
+  }
+  .logo margin-right img {
+    width: 30%;
+  }
+  .logo h1 {
+    font-size: 25px;
+  }
+  footer {
+    display: flex;
+    flex-direction: column;
+  }
+  main {
+    min-height: 100%;
+  }
+  main .nosotros {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  main .nosotros img {
+    width: 80%;
+  }
+  main .nosotros div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  main .nosotros div h2 {
+    font-size: 2rem;
+  }
+  main .nosotros div p {
+    font-size: 1rem;
+  }
+}
 
 /*# sourceMappingURL=estilos.css.map */

@@ -237,3 +237,117 @@ footer{
     opacity: 100%;
 }
 }
+
+/* Mobile */
+@media screen and (max-width: 767px) {
+    header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+
+        nav{
+            align-items: center;
+            margin: 0;
+        }
+
+        margin-bottom: 10px;
+    }
+
+
+    main{
+        display: flex;
+        flex-direction: column;
+
+        .Inicio{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+
+            img{
+                width: 80%;
+            }
+
+            div{
+                h2{
+                    font-size: 2rem;
+                }
+
+                p{
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+
+    .cards{
+        display: flex;
+        flex-direction: column;
+
+        .card{
+            display: flex;
+            flex-direction: column;
+            margin: 10px;
+            gap: 20px;
+
+            img{
+                width: 70%;
+            }
+
+            h3{
+                font-size: 1.5rem;
+            }
+
+            p{
+                font-size: 1rem;
+            }
+        }
+    }
+
+    .logo{
+        margin-right
+        img{
+            width: 30%;
+        }
+
+        h1{
+            font-size: 25px;
+        }
+    }
+
+    footer{
+        display: flex;
+        flex-direction: column;
+    }
+
+    main{
+        min-height: 100%;
+        .nosotros{
+            display: flex;
+            flex-direction: column;
+            margin-top: 10px;
+            margin-bottom: 20px;
+            img{
+                width: 80%;
+            }
+
+            div{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                h2{
+                    font-size: 2rem;
+                }
+
+                p{
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+}
